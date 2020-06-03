@@ -1,0 +1,95 @@
+#logo{
+	opacity: 0.6;
+	float: left;
+}
+
+#logo:hover{
+	opacity: 1;
+	transition: 0.5s;
+}
+
+#navbar{
+	display: flex;
+	list-style: none;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+li{
+	margin-right: 10px;
+	opacity: 0.8;
+	font-family: "Lucida Console", Courier, monospace;
+}
+
+li:hover{
+	opacity: 1;
+}
+
+hr{
+	margin-top: 30px;
+}
+
+#title2{
+	max-width:100%; max-height:100%; margin:auto;
+}
+
+
+/* Hover effects */
+
+.title{
+    font-family: sans-serif;
+    color: #dc2d5e;
+}
+.container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+}
+
+.image {
+    display: block;
+    width: 400px;
+    height: 400px;
+
+}
+
+
+.text {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.text2 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    text-align: center;
+}
+.overlayFade{
+    height: 100%;
+    width:100%;
+    top:0;
+    left:2;
+    background-color: #ff946bbd;
+}
+.overlay {
+    position: absolute;
+    opacity: 0;
+    transition:all .3s ease;
+    background-color: #535c5e;
+}
+.container:hover .overlay,.container:hover .overlayFade {
+    opacity: 0.80;
+}
